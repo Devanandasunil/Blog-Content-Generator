@@ -1,8 +1,10 @@
 # AI Blog Content Generator
 
-An AI-powered modular Python application that generates complete blog content based on a user-provided topic. The system uses separate modules for intent detection, title generation, content generation, summary creation, SEO keyword extraction, and meta description generation.
+An AI-powered modular Python application that generates complete blog content based on a user-provided topic.
 
-## 🚀 Features
+The application processes the user's topic and generates a blog title, blog content, summary, SEO keywords, and meta description using separate Python modules.
+
+## Features
 
 * User-friendly topic input
 * Intent detection
@@ -16,7 +18,7 @@ An AI-powered modular Python application that generates complete blog content ba
 * Demo execution support
 * Screenshot-based demonstration
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Natural Language Processing (NLP)
@@ -24,38 +26,37 @@ An AI-powered modular Python application that generates complete blog content ba
 * Generative AI
 * Modular Python Programming
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Blog-Content-Generator/
-│
-├── screenshots/
-│   ├── HomeScreen.png
-│   ├── Userinput_Intent_Detection.png
-│   ├── blog_title.png
-│   ├── BlogGeneration.png
-│   ├── BlogGenerationpartII.png
-│   ├── Summary_Generation .png
-│   ├── SEO_Keywords.png
-│   ├── Meta_Description .png
-│   └── Blog Saved_Successfully.png
-│
-├── blog_module.py
-├── demo_run.py
-├── input_module.py
-├── intent_module.py
-├── keyword_module.py
-├── main.py
-├── meta_module.py
-├── summary_module.py
-├── title_module.py
-├── utils.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+|
++-- screenshots/
+|   +-- HomeScreen.png
+|   +-- Userinput_Intent_Detection.png
+|   +-- blog_title.png
+|   +-- BlogGeneration.png
+|   +-- BlogGenerationpartII.png
+|   +-- Summary_Generation .png
+|   +-- SEO_Keywords.png
+|   +-- Meta_Description .png
+|   +-- Blog Saved_Successfully.png
+|
++-- blog_module.py
++-- demo_run.py
++-- input_module.py
++-- intent_module.py
++-- keyword_module.py
++-- main.py
++-- meta_module.py
++-- summary_module.py
++-- title_module.py
++-- requirements.txt
++-- .gitignore
++-- README.md
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -77,7 +78,7 @@ python -m venv venv
 
 ### 4. Activate the virtual environment
 
-**Windows:**
+For Windows:
 
 ```bash
 venv\Scripts\activate
@@ -89,15 +90,15 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## ▶️ Running the Application
+## Running the Application
 
-Run the main application using:
+Run the main application:
 
 ```bash
 python main.py
 ```
 
-Enter a blog topic when prompted:
+The application will prompt:
 
 ```text
 === AI Blog Generator ===
@@ -112,50 +113,57 @@ The Future of Artificial Intelligence in Education
 
 The application then processes the topic and generates the required blog content.
 
-## 🧩 Modules
+## Modules
 
-| Module              | Purpose                        |
-| ------------------- | ------------------------------ |
-| `main.py`           | Main application workflow      |
-| `input_module.py`   | Handles user input             |
-| `intent_module.py`  | Detects the user's intent      |
-| `title_module.py`   | Generates the blog title       |
-| `blog_module.py`    | Generates blog content         |
-| `summary_module.py` | Generates the blog summary     |
-| `keyword_module.py` | Generates SEO keywords         |
-| `meta_module.py`    | Generates the meta description |
-| `utils.py`          | Utility functions              |
-| `demo_run.py`       | Demonstration/testing script   |
+| Module              | Purpose                          |
+| ------------------- | -------------------------------- |
+| `main.py`           | Main application workflow        |
+| `input_module.py`   | Handles user input               |
+| `intent_module.py`  | Detects the user's intent        |
+| `title_module.py`   | Generates the blog title         |
+| `blog_module.py`    | Generates blog content           |
+| `summary_module.py` | Generates the blog summary       |
+| `keyword_module.py` | Generates SEO keywords           |
+| `meta_module.py`    | Generates the meta description   |
+| `demo_run.py`       | Demonstration and testing script |
 
-## 🔄 Workflow
+## Workflow
 
 ```text
 User Topic
-    ↓
+    |
+    v
 Input Processing
-    ↓
+    |
+    v
 Intent Detection
-    ↓
+    |
+    v
 Title Generation
-    ↓
+    |
+    v
 Blog Content Generation
-    ↓
+    |
+    v
 Summary Generation
-    ↓
+    |
+    v
 SEO Keyword Generation
-    ↓
+    |
+    v
 Meta Description Generation
-    ↓
+    |
+    v
 Blog Output
 ```
 
-## 📸 Screenshots
+## Screenshots
 
 ### Home Screen
 
 ![Home Screen](screenshots/HomeScreen.png)
 
-### User Input & Intent Detection
+### User Input and Intent Detection
 
 ![Intent Detection](screenshots/Userinput_Intent_Detection.png)
 
@@ -166,6 +174,10 @@ Blog Output
 ### Blog Generation
 
 ![Blog Generation](screenshots/BlogGeneration.png)
+
+### Blog Generation - Part II
+
+![Blog Generation Part II](screenshots/BlogGenerationpartII.png)
 
 ### Summary Generation
 
@@ -183,11 +195,11 @@ Blog Output
 
 ![Blog Saved](screenshots/Blog%20Saved_Successfully.png)
 
-## 🎯 Purpose
+## Purpose
 
 This project demonstrates how AI and NLP techniques can be combined with a modular Python architecture to automate the process of creating structured and SEO-friendly blog content.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Web-based user interface
 * Multiple language support
@@ -198,9 +210,7 @@ This project demonstrates how AI and NLP techniques can be combined with a modul
 * Database integration
 * Automated publishing to blogging platforms
 
-## 👩‍💻 Author
+## Author
 
 **Devananda Sunil**
-
----
 
